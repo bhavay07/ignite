@@ -4,7 +4,7 @@ import play from '../assets/play_2.svg'
 import star2 from '../assets/star2.svg'
 const Overview = () => {
   return (
-    <section className="w-screen h-full bg-[#d47916] flex items-center justify-center" id="overview">
+    <section className="w-screen h-full bg-[#000000] flex items-center justify-center" id="overview">
       <div className="w-full h-full flex items-center justify-center">
         <div className="w-full h-full flex items-center justify-center flex-col ">
                    <div className="flex items-center justify-center w-full h-full">

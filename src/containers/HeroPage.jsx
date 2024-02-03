@@ -39,17 +39,17 @@ const HeroPage = () => {
             <div className='w-full h-full flex items-center justify-end sm:p-0 s:p-1 md:p-1'>
             <div className='flex items-center justify-center flex-col md:flex-row w-full p-1  gap-6 sm:p-2 my-6'>
             
-              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg md:w-[50%] text-[#d6d5d5]'>Phosphenes Is The Codechef Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
+              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg md:w-[50%] text-[#d6d5d5]'>Phosphenes Is The Codeing ninjas Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
               <div className='flex items-center justify-center flex-col flex-1 gap-2 w-full h-full xs:p-2 xl:p-0'><div className='bg-red rounded-full p-4 h-12 xs:h-14 s:h-16 md:h-20 lg:h-24 flex items-center justify-start bg-video bg-cover bg-center bg-no-repeat w-full'><img src={play} loading="lazy" alt="play" onClick={openModal} className='w-auto h-8 xs:h-10  sm:h-12 md:h-14 lg:h-16'/></div>
              </div>        
               </div>
             </div>
             <div className="flex items-center justify-center flex-row gap-4 w-full py-2 s:p-4 my-2 md:my-6">
-             <Link to="https://forms.gle/V73pXU1xmP2JdNibA" className="flex items-center justify-center bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
-                <button type="submit" className=" text-[#ffffff] group-hover:text-black rounded-full text-xs font-black ">Register Now</button>
+             <Link to="https://forms.gle/V73pXU1xmP2JdNibA" className="flex items-center justify-center bg-white group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
+                <button type="submit" className=" text-[#000000] group-hover:text-white rounded-full text-xs font-black ">Register Now</button>
               </Link>
-          <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-black">
-                <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>
+          <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-white">
+                <button type="submit" className=" text-white  rounded-full text-xs font-black ">Rule Book</button>
               </a>   
               <div className="sm:flex hidden items-center justify-center flex-1 w-full h-0 border border-black"></div>
               <div className="hidden items-center justify-center sm:flex">
