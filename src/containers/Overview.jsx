@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/bgflip.jpeg'
+import bg from '../assets/bgflip.jpg'
 import play from '../assets/play_2.svg'
 import star2 from '../assets/star2.svg'
 const Overview = () => {
