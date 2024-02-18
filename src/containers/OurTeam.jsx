@@ -1,10 +1,10 @@
 import React from 'react'
-import person from '../assets/person.jpg'
-import person1 from '../assets/person1.jpg'
-import person2 from '../assets/person2.jpg'
-import person3 from '../assets/person3.jpg'
-import person4 from '../assets/person4.jpg'
-import person5 from '../assets/person5.jpg'
+import person1 from '../assets/person1_rep.jpg'
+import person2 from '../assets/person2_rep.jpg'
+import person3 from '../assets/person3_rep.jpg'
+import person4 from '../assets/person4_rep.jpg'
+import person5 from '../assets/person5_rep.jpg'
+import person6 from '../assets/person6_rep.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   EffectFade,
@@ -26,22 +26,22 @@ const OurTeam = () => {
         </div>
         <div className='hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center w-full py-8 my-6'>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-                <img src={person} loading="lazy" alt="ourteam" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person6} loading="lazy" alt="ourteam" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-                <img src={person4} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person1} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
                 <img src={person5} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-                <img src={person3} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
-             </div>
-             <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
                 <img src={person2} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-                <img src={person1} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person3} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+             </div>
+             <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
+                <img src={person4} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
         </div>
 

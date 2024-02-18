@@ -69,10 +69,7 @@ const Prizes = () => {
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  It will be a 24 hr event. Team of 5 will be made having two 3
-                  Chitkara Business School students and 2 CSE students. Teams
-                  will be formed by organising team and will be assigned one
-                  nation, and will manage each nation.
+                It will be a 2 day event, team of 5 consisting of the CEO, CFO, COO, CMO and CTO, all from CSE department. Students are independent to make their own team and choose their problem statement which they will solve using their product.
                 </p>
               </div>
             </div>
