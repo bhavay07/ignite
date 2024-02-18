@@ -41,11 +41,8 @@ const HeroPage = () => {
           <div className='w-full h-full flex items-center justify-end gap-8 sm:p-0 s:p-1 md:p-1'>
             <div className='flex items-start justify-start flex-col md:flex-row w-full p-1  gap-6 sm:p-2 my-6'>
 
-              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg text-[#d6d5d5]'>✨Sprint into the Accathon and witness your innovative concept bloom into a thriving startup! ✨
-
-                The Coding Ninjas CUIET, in collaboration with the Department of Computer Science and Engineering, presents a new concept of hackathon. Dive into the world of entrepreneurship with  Ignite: Build a Unicorn  powered by Coding Ninjas Studio and co-powered by UnsaidTalks , Roadies Koffeehouz , Fantastick and certificate partner GiveMyCertificate⚡
-
-                Experience the real-time journey of building your own startup, where we will guide you through every step, from brainstorming innovative ideas to captivating investors with your pitch. 💫
+              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg text-[#d6d5d5]'>The annual flagship event of the Coding Ninjas CUIET, IGNITE: Build A Unicorn, is an Accathon designed primarily for aspiring entrepreneurs providing the students with an opportunity to delve into the intricacies of building a start-up and developing it into a Unicorn through real-time experience. The students will explore the complexities of market dynamics, start-up management, and tech-assisted problem solving all while using virtual currency. 
+Along with a sizable prize pool, the event is jam-packed with engaging games, sessions, and entertaining activities.
               </p>
 
             </div>

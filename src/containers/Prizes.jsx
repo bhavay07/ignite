@@ -28,37 +28,38 @@ const Prizes = () => {
                   PRIZES <span className="text-[#d47916]">.</span>
                 </h1>
               </div>
-              <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
+              {/* <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
                   Prizes includes : • Best Name Registry Category award • Best Girls Team Award
                   Goodies worth 1lac Each participant will get premium goodies. Venue - Pierre Hall, Le-corbusier Block, Date - 22/23 Feb 2024.
                   
                 </p>
-              </div>
+              </div> */}
+              <br />
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Prize Pool
+                    Exciting Prizes
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     2.2Lakh
-                  </h1>
+                  </h1> */}
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Prize Money
+                    Fun activies
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     1Lakh
-                  </h1>
+                  </h1> */}
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Goodies
+                    Goodies worth 50k
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     1Lakh
-                  </h1>
+                  </h1> */}
                 </div>
               </div>
             </div>
