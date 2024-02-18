@@ -30,9 +30,8 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of 2.2lacs which will include: • Prize money 1lac •
-                  Goodies worth 1.2lac Each participant will get premium goodies
-                  and merch. Venue - Galileo block, Date - 23/24 March 2023.
+                  Prizes includes : • Best Name Registry Category award • Best Girls Team Award
+                  Goodies worth 1lac Each participant will get premium goodies. Venue - Pierre Hall, Le-corbusier Block, Date - 22/23 Feb 2024.
                   
                 </p>
               </div>
@@ -58,7 +57,7 @@ const Prizes = () => {
                     Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    1.2Lakh
+                    1Lakh
                   </h1>
                 </div>
               </div>
@@ -82,12 +81,11 @@ const Prizes = () => {
             <div className="flex items-center justify-center bg-[#292929] p-4 md:p-6 sm:py-12 w-full h-full relative">
               <div className="flex items-center justify-center flex-row my-4 w-full s:max-w-7xl s:w-[85%] md:w-[90%]">
                 <p className="items-center justify-center inline-block text-center gap-4 text-2xl xs:text-3xl sm:text-4xl p-1 sm:p-2 md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black w-full">
-                  A CREATIVE <span className="text-[#d47916]">MIND</span> KNOWS
-                  HOW TO DO THE RIGHT{" "}
-                  <span className="text-[#d47916]">THING</span> AT THE{" "}
-                  <span className="text-[#d47916]">RIGHT </span>
-                  PLACE AND AT THE RIGHT{" "}
-                  <span className="text-[#d47916]">TIME .</span>
+                	GUTS BUILD <span className="text-[#d47916]">EMPIRES</span> NO DOUBTS. 
+                  EVERY SETBACK A{" "}
+                  <span className="text-[#d47916]">STEPEPPING STONE</span> EVERY STORM A{" "}
+                  <span className="text-[#d47916]">TEST </span>
+                  CLIMB ON <span className="text-[#d47916]">FOUNDER </span> YOUR SUBMIT AWAITS.
                 </p>
                 <img
                   src={vector}

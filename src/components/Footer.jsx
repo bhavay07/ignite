@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div className="flex-items-center justify-center w-full sm:w-[80%] md::w-[75%] my-4 xs:my-6">
                 <h1 className="text-2xl xs:text-3xl  text-center s:text-4xl font-black sm:leading-tight text-[#ffffff]">
-                   Special Thanks to the CSE Department, and the CBS for trusting us.
+               	Join us at IGNITE, where challenges turn into triumphs, and every coder is a storyteller of innovation.
                 </h1>
               </div>
               <div className="flex items-center justify-center flex-row gap-4 md:mb-12 py-2 my-2 xs:my-6 w-full xs:w-[95%] sm:w-[75%] lg:w-[50%]">
