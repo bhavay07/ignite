@@ -15,8 +15,8 @@ const Overview = () => {
                                <div className="flex items-center justify-center absolute xs:top-0 top-1 right-1 xs:right-0"><img src={play} alt="play" className="motion-safe:animate-[spin_5s_ease-in-out_infinite] w-12 h-12  xs:h-16  xs:w-16 s:h-20 s:w-20  sm:w-24 sm:h-24 lg:w-28 lg:h-28 "/></div>
                                 </div>
                                 </div>
-                                <div className="bottom-0 absolute flex items-center justify-center w-full bg-black">
-                           <div className="flex items-center justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d47916] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR STARTUP</h1></marquee></div>
+                                <div className="bottom-0 absolute flex items-center justify-center w-full bg-black overflow-x-hidden">
+                           <div className="flex items-center justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d47916] font-black ">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR STARTUP</h1></marquee></div>
                    </div>
                            </div>
                    </div>
