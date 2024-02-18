@@ -31,7 +31,7 @@ const HeroPage = () => {
         <div className='flex items-center justify-center px-2 sm:px-4 md:px-2 lg:px-4 flex-col max-w-[95%] h-full py-4'>
           <div className='flex items-center justify-start flex-col sm:flex-row w-full gap-12 my-2 h-full sm:p-0 s:p-1 md:p-1'>
             <div className='flex items-center justify-start w-full md:w-[50%]'><h1 className='text-[2.1rem]  lg:p-2 xs:text-[2.8rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#d47612]'>IGNITE</h1></div>
-            <div className='flex items-center justify-center flex-col flex-1 gap-2 md:w-[50%] w-full h-full xs:p-2 xl:p-0'><div className='bg-red rounded-full p-4 h-12 xs:h-14 s:h-16 md:h-20 lg:h-24 flex items-center justify-start bg-video bg-cover bg-center bg-no-repeat w-full'><img src={play} loading="lazy" alt="play" onClick={openModal} className='w-auto h-8 xs:h-10  sm:h-12 md:h-14 lg:h-16' /></div>
+            <div className='flex items-center justify-center flex-col flex-1 gap-2 md:w-[50%] w-full h-full xs:p-2 xl:p-0'><div style={{width: "80%", "margin-right":"80px"}} className='bg-red rounded-full p-4 h-12 xs:h-14 s:h-16 md:h-20 lg:h-24 flex items-center justify-start bg-video bg-cover bg-center bg-no-repeat w-full'><img src={play} loading="lazy" alt="play" onClick={openModal} className='w-auto h-8 xs:h-10  sm:h-12 md:h-14 lg:h-16' /></div>
             </div>
           </div>
           <div className='flex items-center justify-start flex-col w-full h-full sm:p-0 s:p-1 md:p-1 gap-2'>
@@ -48,7 +48,7 @@ const HeroPage = () => {
               </p>
 
             </div>
-            <div className='flex items-start justify-end h-full'><img src={star} loading="lazy" alt="star" className='w-auto h-6 sm:h-8 md:mr-6' /></div>
+            <div className='flex items-start justify-end md:{hidden} h-full'><img src={star} loading="lazy" alt="star" className='w-auto h-6 sm:h-8 md:mr-6' /></div>
           </div>
           <div className="flex items-center justify-center flex-row gap-4 w-full py-2 s:p-4 my-2 md:my-6">
             <Link to="https://docs.google.com/forms/d/e/1FAIpQLSezH9p9sd8QHaBhQO1v7bjHWj8VfEseCkYYyG4uiy3nPL-8nA/viewform?usp=sf_link" className="flex items-center justify-center bg-white group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
