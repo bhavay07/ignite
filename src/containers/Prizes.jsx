@@ -32,34 +32,35 @@ const Prizes = () => {
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
                   Prizes includes : • Best Name Registry Category award • Best Girls Team Award
-                  Goodies worth 1lac Each participant will get premium goodies. Venue - Pierre Hall, Le-corbusier Block, Date - 22/23 Feb 2024.
+                  Goodies worth 50k Each participant will get premium goodies. Venue - Pierre Hall, Le-corbusier Block, Date - 22/23 Feb 2024.
                   
                 </p>
               </div>
+              <br />
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Prize Pool
+                    Exciting Prizes
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     2.2Lakh
-                  </h1>
+                  </h1> */}
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Prize Money
+                    Fun activies
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     1Lakh
-                  </h1>
+                  </h1> */}
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    Goodies
+                    Goodies worth 50k
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  {/* <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
                     1Lakh
-                  </h1>
+                  </h1> */}
                 </div>
               </div>
             </div>
@@ -82,11 +83,11 @@ const Prizes = () => {
             <div className="flex items-center justify-center bg-[#292929] p-4 md:p-6 sm:py-12 w-full h-full relative">
               <div className="flex items-center justify-center flex-row my-4 w-full s:max-w-7xl s:w-[85%] md:w-[90%]">
                 <p className="items-center justify-center inline-block text-center gap-4 text-2xl xs:text-3xl sm:text-4xl p-1 sm:p-2 md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black w-full">
-                	GUTS BUILD <span className="text-[#d47916]">EMPIRES</span> NO DOUBTS. 
-                  EVERY SETBACK A{" "}
-                  <span className="text-[#d47916]">STEPEPPING STONE</span> EVERY STORM A{" "}
-                  <span className="text-[#d47916]">TEST </span>
-                  CLIMB ON <span className="text-[#d47916]">FOUNDER </span> YOUR SUBMIT AWAITS.
+                	GUTS BUILD <span className="text-[#d47916]">EMPIRES</span>, NO DOUBTS. 
+                  EVERY SETBACK IS A{" "}
+                  <span className="text-[#d47916]">STEPPING STONE</span>, EVERY STORM A{" "}
+                  <span className="text-[#d47916]">TEST. </span>
+                  CLIMB ON, <span className="text-[#d47916]">FOUNDER</span>, YOUR SUBMIT AWAITS.
                 </p>
                 <img
                   src={vector}
