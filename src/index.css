@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+	width:100vw;
+}
 /* cyrillic-ext */
 @font-face {
 	font-family: 'Montserrat';
