@@ -2,11 +2,12 @@ import React from "react";
 import prize from "../assets/poster.jpeg";
 import vector from "../assets/Vector.svg";
 import star2 from '../assets/star2.svg'
-import cbs from '../assets/cbs.png';
-import gmc from '../assets/gmc.png';
-import selle from '../assets/selle.png';
+import cbs from '../assets/sponser_1.png';
+import gmc from '../assets/sponser_2.png';
+import selle from '../assets/sponser_3.png';
+import spn5 from '../assets/sponser_5.png';
 import vardiano from '../assets/vardiano.png';
-import ccsc from '../assets/favicon.png';
+import ccsc from '../assets/sponser_4.png';
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   EffectFade,
@@ -135,6 +136,10 @@ const Prizes = () => {
       <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
         
       <div className="flex items-center  justify-center bg-[#ffffff] rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      </SwiperSlide>
+      <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+        
+      <div className="flex items-center  justify-center bg-[#ffffff] rounded-md p-2 md:p-4"> <img src={spn5} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
               
