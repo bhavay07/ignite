@@ -86,7 +86,7 @@ const Prizes = () => {
                   EVERY SETBACK IS A{" "}
                   <span className="text-[#d47916]">STEPPING STONE</span>, EVERY STORM A{" "}
                   <span className="text-[#d47916]">TEST. </span>
-                  CLIMB ON, <span className="text-[#d47916]">FOUNDER</span>, YOUR SUBMIT AWAITS.
+                  CLIMB ON, <span className="text-[#d47916]">FOUNDER</span>, YOUR SUMMIT AWAITS.
                 </p>
                 <img
                   src={vector}
