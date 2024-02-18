@@ -82,11 +82,11 @@ const Prizes = () => {
             <div className="flex items-center justify-center bg-[#292929] p-4 md:p-6 sm:py-12 w-full h-full relative">
               <div className="flex items-center justify-center flex-row my-4 w-full s:max-w-7xl s:w-[85%] md:w-[90%]">
                 <p className="items-center justify-center inline-block text-center gap-4 text-2xl xs:text-3xl sm:text-4xl p-1 sm:p-2 md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black w-full">
-                	GUTS BUILD <span className="text-[#d47916]">EMPIRES</span> NO DOUBTS. 
-                  EVERY SETBACK A{" "}
-                  <span className="text-[#d47916]">STEPEPPING STONE</span> EVERY STORM A{" "}
-                  <span className="text-[#d47916]">TEST </span>
-                  CLIMB ON <span className="text-[#d47916]">FOUNDER </span> YOUR SUBMIT AWAITS.
+                	GUTS BUILD <span className="text-[#d47916]">EMPIRES</span>, NO DOUBTS. 
+                  EVERY SETBACK IS A{" "}
+                  <span className="text-[#d47916]">STEPPING STONE</span>, EVERY STORM A{" "}
+                  <span className="text-[#d47916]">TEST. </span>
+                  CLIMB ON, <span className="text-[#d47916]">FOUNDER</span>, YOUR SUBMIT AWAITS.
                 </p>
                 <img
                   src={vector}
