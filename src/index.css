@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,body{
+	overflow-x:hidden;
+}
+
 
 /* cyrillic-ext */
 @font-face {
@@ -426,8 +430,6 @@
 }
 
 body {
-	width:100vw;
-	overflow-x:hidden;
 	background-color: black;
 }
 .scroll-remove::-webkit-scrollbar {
