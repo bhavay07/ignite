@@ -100,9 +100,6 @@ const OurTeam = () => {
           </Swiper>
         </div>
       </div>
-        <div className="downHeading">
-          <h2 className='text-[#fff]'>UTKRISHTI'24</h2>
-        </div>
 
     </section>
   )
